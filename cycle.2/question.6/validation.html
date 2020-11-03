@@ -1,0 +1,44 @@
+<html>
+    <title> Online Yoga Class Registration Form </title>
+    <div align="center">
+        <h1 align="center"><b style="color:black"><i> Online Yoga Class Registration Form  </i></b></h1>
+        <img src="C:\Users\User\Documents\labcycle.2\download (1).jpg"width="700" height="150">
+        <body>
+            <form name="frm">
+                <table>
+                    <tr>
+                        <th>NAME</th>
+                        <td><input type="text" name="name" required pattern="[a-zA-Z\s]{3,20}" title="Enter the valid User Name!"></td>
+                    </tr>
+                    <tr>
+                        <th>ADDRESS</th>
+                        <td><textarea name="address" rows="5" cols="15" required ></textarea></td>   
+                   </tr>
+                       
+                    <tr>
+                      
+                        <th>GENDER</th>
+                        <td><input type="radio" name="g" />MALE
+                             <input type="radio" name="g"/>FEMALE
+                             <input type="radio" name="g"/>OTHERS
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>PHONE</th>
+                        <td><input type="text" name="phn" required pattern="[0-9]{10,11}" title="Enter the valid Phone Number!"></td>
+                        
+                    </tr>
+                    <tr>
+                        <th>DOB</th>
+                        <td><input type="date" name="dob" required  ></td>
+                    </tr>
+                    <tr>
+                    <th></th>
+                        <td><input type="submit" name="reg" value="REGISTER" required></td>
+                    </tr>
+                </table>
+            </form>
+        
+    </body>
+</div>
+</html>
