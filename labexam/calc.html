@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <style>
+    .formstyle{
+      width:180px;
+      height:220px;
+      margin:auto;
+      border:2px solid black
+    }
+    input{
+      width:40px;
+     
+    }
+    #answerstyle{
+      width:170px;
+    }
+   
+</style>
+</head>
+    <body>
+<div class="formstyle">
+  <form name="forms"> 
+   
+  <input  type="text" name="answer"id="answerstyle" style="background-color: green"><br> </br>
+  <input  type ="button"  value="ON" style="background-color: blue ;" onclick="forms.answer.value = '0' " >
+ 
+  <input  type ="button"  value="OFF" style="background-color: blue ;" onclick="forms.answer.value = '' " >
+  <input type="button" value="CLR" style="background-color: blue ;" onclick="forms.answer.value = ' ' ">
+  <br> </br>
+  
+  <input type="button" value="1" onclick="forms.answer.value += '1' ">
+  <input type="button" value="2" onclick="forms.answer.value += '2' ">
+  <input type="button" value="3" onclick="forms.answer.value += '3' ">
+  <input type="button" value="+" onclick="forms.answer.value += '+' ">
+  <br> </br>
+  <input type="button" value="4" onclick="forms.answer.value += '4' ">
+  <input type="button" value="5" onclick="forms.answer.value += '5' ">
+  <input type="button" value="6" onclick="forms.answer.value += '6' ">
+  <input type="button" value="-" onclick="forms.answer.value += '-' ">
+  <br> </br>
+  <input type="button" value="7" onclick="forms.answer.value += '7' ">
+  <input type="button" value="8" onclick="forms.answer.value += '8' ">
+  <input type="button" value="9" onclick="forms.answer.value += '9' ">
+  <input type="button" value="*" onclick="forms.answer.value += '*' ">
+  <br> </br>
+  <input type="button" value="." onclick="forms.answer.value += '.' ">
+  <input type="button" value="0" onclick="forms.answer.value += '0' ">
+  <input type="button" value="=" onclick="forms.answer.value = eval (forms.answer.value) ">
+  <input type="button" value="/" onclick="forms.answer.value += '/' ">
+  <br> </br>
+</div>
+</form>
+
+
+    </body>
+
+    </html>
